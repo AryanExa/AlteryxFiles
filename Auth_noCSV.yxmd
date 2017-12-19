@@ -1,0 +1,549 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.0">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>CLAIMS_ATTRIBUTES.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DL_CLAIM_LINE_UNIV_SK" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DL_CLAIM_UNIV_SK" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DL_CLAIM_LINE_FCT_SK" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLAIM_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLAIM_ID_BASE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLAIM_TYPE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLAIM_MODIFIER" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLAIM_LINE_SEQ_NUM" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLAIM_STATUS" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="MEMBER_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SERVICE_FROM_DT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SERVICE_TO_DT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SERVICE_PROVIDER_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PROVIDER_NETWORK_IND" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CAPITATION_IND" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SERVICE_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SERVICE_RULE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PRE_AUTH_IND" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PRE_AUTH_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CHARGE_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CONSIDER_CHG_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="ALLOWED_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="UNITS" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DEDUCTIBLE_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="COPAY_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="COINS_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="WITHHOLD_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PAID_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DISALLOW_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DISALLOW_REASON_CD" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="TOT_DISC_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SUP_DISC_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="ITS_DISC_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SUBSCRIBER_PAY_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PROVIDER_PAY_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PRE_PAID_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PAT_LIAB_DISALLOW_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PAT_LIAB_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="COB_COVERAGE_TYPE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="COB_PAID_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="COB_ALLOW_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="COB_DISALLOW_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="COB_COINS_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="COB_COPAY_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="COB_DEDUCTIBLE_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="COB_OOP_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="COB_APPLIED_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="COB_ADJUST_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="COB_SAVINGS_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="COB_DISALLOW_REASON_CD" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="EOB_DISALLOW_REASON_CD" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="COB_SANCTION_AMT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="REFERRAL_IND" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="REFERRAL_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="HOSP_ROOM_TYPE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DL_MD5" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DL_ACTIVE_REC_IND" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DL_EFF_DATE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DL_END_DATE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DL_JOB_RUN_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DL_CRT_TS" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DL_UPD_TS" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DL_PROVIDER_SK" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PROVIDER_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="NPI" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PROVIDER_TYPE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="FIRST_NAME" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="LAST_NAME" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PRACTICE_OFFICE_NAME" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="MEDICARE_NBR" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="TAX_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="TIN_TYPE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DEA_NUM" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CAQH_NUM" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="UPIN_NUM" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="MEDICAID_NBR" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="STATE_LIC_NBR" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PERSONAL_CARE_LVL" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="HOME_VISITS_IND" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CHHA_AFFILIATION" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="HOSPITAL_BASED_IND" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AGY_CODE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="LEGACY_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PROV_STATUS" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DL_MEMBER_SK" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="MEMBER_ID2" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="FIRST_NAME2" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="MIDDLE_INITIAL" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="LAST_NAME2" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DOB" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="MEDICAID_NUMBER" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SEX_CODE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DL_EFF_DT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DL_END_DT" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DL_JOB_RUN_ID2" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DL_CRT_TS2" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DL_UPD_TS2" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="HEDIS_PATIENT_CLAIM_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PATIENT_VISIT_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="VISIT_TYPE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="VISIT_DATE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PATIENT_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="ADMISSION_DATE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DISCHARGE_DATE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PLACE_OF_SERVICE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SOURCE_INFO" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="BILL_TYPE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DIAGNOSIS_CODE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="REVENUE_CODE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SERVICE_CODE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SERVICE_DATE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SERVICE_TO_DATE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DISPENSED_DATE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DISPENSED_END_DATE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="NDC_CODE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DAYS_SUPPLY" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="QUANTITY" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="TREATMENT_DAYS" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLAIM_STATUS2" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLAIM_NUMBER" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SERVICE_CODE_MODIFIER1" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SERVICE_CODE_MODIFIER2" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SERVICE_CODE_MODIFIER3" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SERVICE_CODE_MODIFIER4" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="JOB_RUN_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SYS_UPD_TS" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="IS_ICD10" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="ACCESS_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PATIENT_ID2" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="STAFF_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_NO" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="LAST_ACCESSED_START_DATE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="LAST_ACCESSED_END_DATE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CREATED_ON" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="IS_SCHEDULE" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DOCUMENT_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DOCUMENT_TYPE_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="ORIGINAL_NAME" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="GENERATED_NAME" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="GENERATED_PATH" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PATIENT_ID3" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="LETTER_QUEUE_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DESCRIPTION" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CREATED_BY" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CREATED_ON2" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="UPDATED_BY" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="UPDATED_ON" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DELETED_BY" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DELETED_ON" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="MESSAGE_ID" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PATIENT_VISIT_ID2" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PATIENT_ID4" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLAIM_NUMBER2" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="NEW_CLAIM_NO" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLAIM_LINE_SEQ" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLAIM_STATUS3" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="NAME" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+            <Field name="NOTES" size="254" source="File: D:\visiting Nurse\Claims\CLAIMS_ATTRIBUTES.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>AUTHORIZATION_ATTRIBUTES.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="MEMBER_SERVICE_PLAN_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="MEMBER_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CARE_PLAN_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PROVIDER_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SERVICE_STATUS_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SERVICE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_CLASS_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_TYPE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_CODE_TYPE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="GROUP_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="JOB_RUN_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SYS_UPD_TS" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_PROVIDER_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PROVIDER_TYPE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PHYSICIAN_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PROVIDER_NAME" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PROVIDER_FAX" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PROVIDER_ADDRESS_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="JOB_RUN_ID2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SYS_UPD_TS2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_CODE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_CODE_TYPE_ID2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_CODE_REF_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_CODE_APP_UNITS" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_CODE_FROM_DATE" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_CODE_TO_DATE" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_FREQ_DOSAGE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_STRENGTH" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SC_CAT_PROVIDER_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="ALTERNATE_SERVICE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_PROVIDER_ID2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PROVIDER_TYPE_ID2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PHYSICIAN_ID2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PROVIDER_NAME2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PROVIDER_ADDRESS_ID2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_CHARGE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_ESTIMATED" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_STANDARD" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_NEGOTIATED" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_DISCOUNT" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_NO" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CASE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_DESCRIPTION" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PATIENT_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_TYPE_ID2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="ADMISSION_SOURCE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_PRIORITY_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_STATUS_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_STATUS_REASON_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_REVIEW_FLAG" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLAIM_TYPE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_CLOSED_DATE" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_SERVICE_TYPE_CODE" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="ALTERNATE_AUTH_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_DATE_NOTED" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_DUE_DATE" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLOSED_REASON_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_REFILLS_REQUESTED" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_STRENGTH2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="MEDICAL_RECORD_NUMBER" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_COST_SAVINGS" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="TREATMENT_TYPE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PATIENT_DETAILS_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLIENT_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLIENT_PATIENT_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PATIENT_ID2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="INSURANCE_POLICY_NUMBER" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="INSURANCE_PLAN" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="RESIDENCE_STATUS_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="REFERRAL_TYPE" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="INSURANCE_TYPE" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="STATUS_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="UNIQUE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="JOB_RUN_ID3" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SYS_UPD_TS3" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="ACCESS_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PATIENT_ID3" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="JOB_RUN_ID4" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SYS_UPD_TS4" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="REFERRAL_TYPE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="REFERRAL_TYPE2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="JOB_RUN_ID5" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SYS_UPD_TS5" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DECISION_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DECISION_NO" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DECISION_STATUS" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DECISION_STATUS_CODE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="UNIT_TYPE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_PRIORITY_ID2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_CODE_ID2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DETERMINATION_TYPE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="JOB_RUN_ID6" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SYS_UPD_TS6" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="REFERRAL_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="LEVEL_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="REFERRAL_REF_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="REFERRAL_REQ_FROM" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="REFERRAL_REQ_TO" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="REFER_TYPE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="REFERRAL_STATUS_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLIENT_ID2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLIENT_PATIENT_ID2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SOURCE_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLAIM_NUMBER" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PATIENT_ID4" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="INSURANCE_TYPE2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="INSURANCE_ID_NUMBER" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CREATED_ON" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PHYSICIAN_ID3" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLAIM_STATUS" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="IS_REVERSAL" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CLAIM_LINE" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SUB_LINE_CODE" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="ORIG_CLAIM_NO" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DUP_CLAIM_NO" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PATIENT_CONTROL_NO" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="MEDICAL_RECORD_NO" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PROCESSING_STATUS" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="holds" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="ALTERNATE_MEMBER_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="VENDOR_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CARE_PLAN_ID2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PATIENT_ID5" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="STATUS_ID2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PRIORITY_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CARE_PLAN_PRIORITY_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="UNIQUE_ID2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="MEMBER_STATUS_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="JOB_RUN_ID7" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SYS_UPD_TS7" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="MEMBER_ID2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="USERNAME" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SESSION_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="JOB_RUN_ID8" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SYS_UPD_TS8" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_TRANSFER_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="TRANSFERRED_BY" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="TRANSFERRED_FROM" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="DATE_OF_TRANSFER" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="TRANSFERRED_TO" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="JOB_RUN_ID9" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SYS_UPD_TS9" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="CST_PROVIDER_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PROVIDER_ID2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="JOB_RUN_ID9_2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SYS_UPD_TS9_2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_STATUS_ID2" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="AUTH_STATUS" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="JOB_RUN_ID9_3" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SYS_UPD_TS9_3" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="INDEX_VALUE" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="INDEX_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="PROVIDER_ID3" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="INDEX_NAME" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="INDEX_NAME_ID" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="IS_ACTIVE" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="JOB_RUN_ID9_4" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+            <Field name="SYS_UPD_TS9_4" size="254" source="File: D:\visiting Nurse\Claims\AUTHORIZATION_ATTRIBUTES.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="630" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Exa6\AppData\Local\Temp\Engine_5584_a6a6dc5f721f484987b2c72edd2fa98f_\Engine_5412_f95ffda685a34dd18a86a26c0ed696dc_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="462" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="if [AUTH_NO]=[Right_AUTH_NO] then &quot;Authorized Claim&quot; else &quot;Un-Authorized Claim&quot; endif " field="JOIN" size="1073741823" type="V_WString" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>JOIN = if [AUTH_NO]=[Right_AUTH_NO] then "Authorized Claim" else "Un-Authorized ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="318" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="True">
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_MEMBER_ID" selected="True" rename="Right_MEMBER_ID" />
+                <SelectField field="Right_PROVIDER_ID" selected="True" rename="Right_PROVIDER_ID" />
+                <SelectField field="Right_SERVICE_ID" selected="True" rename="Right_SERVICE_ID" />
+                <SelectField field="Right_JOB_RUN_ID" selected="True" rename="Right_JOB_RUN_ID" />
+                <SelectField field="Right_SYS_UPD_TS" selected="True" rename="Right_SYS_UPD_TS" />
+                <SelectField field="Right_AUTH_NO" selected="True" rename="Right_AUTH_NO" />
+                <SelectField field="Right_PATIENT_ID" selected="True" rename="Right_PATIENT_ID" />
+                <SelectField field="Right_PATIENT_ID2" selected="True" rename="Right_PATIENT_ID2" />
+                <SelectField field="Right_ACCESS_ID" selected="True" rename="Right_ACCESS_ID" />
+                <SelectField field="Right_PATIENT_ID3" selected="True" rename="Right_PATIENT_ID3" />
+                <SelectField field="Right_REFERRAL_ID" selected="True" rename="Right_REFERRAL_ID" />
+                <SelectField field="Right_CLAIM_NUMBER" selected="True" rename="Right_CLAIM_NUMBER" />
+                <SelectField field="Right_PATIENT_ID4" selected="True" rename="Right_PATIENT_ID4" />
+                <SelectField field="Right_CREATED_ON" selected="True" rename="Right_CREATED_ON" />
+                <SelectField field="Right_CLAIM_STATUS" selected="True" rename="Right_CLAIM_STATUS" />
+                <SelectField field="Right_MEMBER_ID2" selected="True" rename="Right_MEMBER_ID2" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="534" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="CLAIM_ID" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Join" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Auth_noCSV</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
